@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Books Application </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/jpg" href= "C:\Users\TUSHAR\Desktop\Kvantum\books.jpg">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js">
+</script>
+
+<script src="C:\Users\TUSHAR\Desktop\Kvantum\myscript.js"></script>
+
+<style>
+    
+   .head{
+        color:blue;
+        font-family:"Bookman Old Style";
+        font-size:30pt;
+        text-align:center;
+          } 
+  
+    .marquee{
+        color:blue;
+        font-family:"Bookman Old Style";
+        font-size:15pt;
+          }
+
+        
+    article{
+             background-color:blue;
+             color:white;
+             padding:20px;
+             font-family:"Britannic";
+             text-align:center;
+               }
+
+    .btn{ 
+         color:white;
+         }
+     
+    .well-lg {
+              margin-left:200px;
+              margin-right:200px;
+              }
+             
+    footer {
+      background-color:#33C7FF;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .row.content {height:auto;} 
+     }
+  </style>
+
+</head>
+
+<body class="#212121 grey lighten-4">
+
+<header class="container-fluid">
+<div class="head">
+<h1>
+<img src="C:\Users\TUSHAR\Desktop\Kvantum\books.jpg" width=130px align="left">
+A Book Application
+<h4>
+The Website will be the best place for choosing books.
+</h4>
+</h1>
+</div>
+</header>
+
+<div class="marquee">
+<h4>
+<marquee bgcolor="red" behaviour="slide"> Website for books </marquee>
+</h4>
+</div>
+
+<div id= "search" class = "#f5f5f5 grey lighten-4 z-depth-5"">
+
+<article>
+<h1>Welcome</h1>
+<section>
+<h3>Books For Everyone</h3>
+<h6>Books will be delivered to you within 24-48 hours.*
+</h6>
+</section>
+</article>
+<br>
+
+<div class="well well-lg">
+<form id= "myform">
+<div class= "input-field">
+<label>Search Books</label><br>
+<input type="search" id= "books">
+<button class= "btn red">Search Books </button>
+</form>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div id= "result">
+</div>
+
+<footer class="container-fluid text-center">
+<p>Website Designed and Managed by Tushar</p>
+</footer>
+</body>
+</html>
